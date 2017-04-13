@@ -1,0 +1,928 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  <head>
+    <script type="text/javascript" src="highslide/highslide.js"></script><!--
+
+
+
+
+
+
+
+
+
+
+
+2) Optionally override the settings defined at the top
+
+
+
+
+
+
+
+
+
+
+
+of the highslide.js file. The parameter hs.graphicsDir is important!
+
+
+
+
+
+
+
+
+
+
+
+-->
+    <script type="text/javascript">
+hs.graphicsDir = 'highslide/graphics/';
+hs.outlineType = 'rounded-white';
+hs.showCredits = false;
+  </script><!--
+
+
+
+
+
+
+
+
+
+
+
+3) These CSS-styles are necessary for the script to work. You may also put
+
+
+
+
+
+
+
+
+
+
+
+them in an external CSS-file. See the webpage for documentation.
+
+
+
+
+
+
+
+
+
+
+
+-->
+    <style type="text/css">
+* {
+font-family: Verdana, Helvetica;
+font-size: 10pt;
+}
+.highslide {
+cursor: url(highslide/graphics/zoomin.cur), pointer;
+outline: none;
+}
+.highslide-active-anchor img {
+visibility: hidden;
+}
+.highslide img {
+border: 2px solid gray;
+}
+.highslide:hover img {
+border: 2px solid white;
+}
+
+.highslide-wrapper {
+background: white;
+}
+.highslide-image {
+border: 2px solid white;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+display: none;
+
+border: 2px solid white;
+border-top: none;
+font-family: Verdana, Helvetica;
+font-size: 10pt;
+padding: 5px;
+background-color: white;
+}
+.highslide-loading {
+display: block;
+color: black;
+font-size: 8pt;
+font-family: sans-serif;
+font-weight: bold;
+text-decoration: none;
+padding: 2px;
+border: 1px solid black;
+background-color: white;
+
+padding-left: 22px;
+background-image: url(highslide/graphics/loader.white.gif);
+background-repeat: no-repeat;
+background-position: 3px 1px;
+}
+a.highslide-credits,
+a.highslide-credits i {
+padding: 2px;
+color: silver;
+text-decoration: none;
+font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+color: white;
+background-color: gray;
+}
+
+a.highslide-full-expand {
+background: url(highslide/graphics/fullexpand.gif) no-repeat;
+display: block;
+margin: 0 10px 10px 0;
+width: 34px;
+height: 34px;
+}
+
+/* These must always be last */
+.highslide-display-block {
+display: block;
+}
+.highslide-display-none {
+display: none;
+}
+  </style>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="GENERATOR" content="Mozilla/4.79 [en]C-CCK-MCD {4}
+      (Windows NT 5.0; U) [Netscape]">
+    <meta name="Author" content="Scot Lawrence">
+    <meta name="KeyWords" content="Lawrence Chase Genealogy">
+    <title>The Lawrence &amp; Chase Genealogy page.</title>
+    <style type="text/css">
+body 
+{
+background-image: 
+url('greenback.gif');
+background-repeat: 
+repeat;
+background-attachment: 
+fixed
+}
+  </style>
+    <script defer="defer" type="text/javascript" src="pngfix.js"></script>
+  </head>
+  <body style="color: rgb(0, 0, 0); background-color: rgb(189, 177,
+    163);" vlink="#006600" link="#006600" alink="#006600">
+    <div style="text-align: center;">&nbsp;
+      <br>
+    </div>
+    &nbsp;
+    <br>
+    &nbsp;
+    <center>
+      <table width="800" cellspacing="0" cellpadding="0"
+        background="texturebackground-table.jpg">
+        <tbody>
+          <tr>
+            <td><img src="spacer25.gif" width="25" height="25"> <br>
+              &nbsp; <br>
+              &nbsp; <br>
+              &nbsp; <br>
+              &nbsp; <br>
+              &nbsp; <br>
+              &nbsp;
+              <p>&nbsp;</p>
+            </td>
+            <td>
+              <center><font color="#ebe4da"><font size="-2">The Lawrence
+                    &amp;
+                    Chase Genealogy page.<br>
+                    <table style="text-align: left; width: 450px;
+                      margin-left: auto; margin-right: auto;"
+                      cellspacing="4" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="LAWRENCE.html"><img
+                                alt="LAWRENCE" src="button-lawrence.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="HILL.html"><img alt="HILL"
+                                src="button-hill.png" style="border: 0px
+                                solid ; width: 100px; height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="KREMER.html"><img
+                                alt="KREMER" src="button-kremer.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="TALADA.html"><img
+                                alt="TALADA" src="button-talada.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                        </tr>
+                        <tr>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="ACKLES.html"><img
+                                alt="ACKLES" src="button-ackles.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="CHASE.html"><img
+                                alt="CHASE" src="button-chase.png"
+                                style="border: 0px solid ;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="FAMOUS.html"><font
+                                color="#ebe4da"><font size="-2"><img
+                                    alt="Famous people in the family
+                                    tree!" src="button-famous.png"
+                                    style="border: 0px solid ; width:
+                                    100px; height: 29px;"></font></font></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="VETERANS.html"><font
+                                color="#ebe4da"><font size="-2"><img
+                                    alt="Veterans in the family tree!"
+                                    src="button-veterans.png"
+                                    style="border: 0px solid ;"></font></font></a></td>
+                        </tr>
+                        <tr>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="cemetery.html"><img
+                                alt="Cemetery"
+                                src="button-cemeteries.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="updates.html"><img
+                                alt="Updates" src="button-updates.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="sources.html"><img
+                                alt="Sources" src="button-sources.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                          <td style="vertical-align: top; text-align:
+                            center;"><a href="index.html"><img
+                                alt="Home" src="button-home.png"
+                                style="border: 0px solid ; width: 100px;
+                                height: 29px;"></a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    bbb<br>
+                  </font></font>
+                <div style="text-align: center;"><img alt=""
+src="http://scotlawrence.smugmug.com/Other/Genealogy-Photos-2/i-g4TD9vJ/0/O/chase-titlepic11a.jpg"
+                    width="772" height="635"><br>
+                  <br>
+                </div>
+                <p> <br>
+                </p>
+                <p style="text-align: center; text-decoration:
+                  underline; font-weight: bold; color: rgb(0, 102, 0);">Page
+7,
+the
+                  CIZIUS/CHASE and HESSE familys of Buffalo, NY.</p>
+                <br>
+                <div style="text-align: left;"><span style="color:
+                    rgb(0, 102, 0); font-weight: bold; font-family:
+                    Arial;"></span><span style="font-weight: bold;
+                    color: rgb(0, 51, 0); font-family: Arial;"><span
+                      style="color: rgb(0, 102, 0);">This page is about
+                      my Wife's family and
+                      genealogy.<br>
+                      Begining with three siblings, Joseph John Chase
+                      III, Deborah Anne
+                      Chase, and Christopher Chase,<br>
+                      listing all their known ancestors and relations.<br>
+                      <br>
+                      This record is being written by Scot Lawrence,
+                      husband of Deborah
+                      (Chase) Lawrence, and was started in the year
+                      2008. The majority of the
+                      data comes the records, photos, and personal
+                      knowledge and memories of
+                      Deb's mother, Elfreida (Hesse) (Chase) Walker. </span></span><span
+                    style="font-family: Arial;"><span
+                      style="font-family: Arial;"><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"></span></span></span></span><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"></span></span></span></span></span><font
+                        color="#006600"><sup><font face="Arial"><font
+                              size="-1">[325]</font></font></sup></font></span></span><br>
+                  <span style="font-weight: bold; color: rgb(0, 51, 0);
+                    font-family: Arial;"><span style="color: rgb(0, 102,
+                      0);"><br>
+                      What we know so far:<br>
+                      <br>
+                      All Four of Deb's grandparents came to America
+                      from Europe in the
+                      1920's, <br>
+                      and all four settled in the Buffalo, NY area.<br>
+                      <br>
+                      Joseph and Mary CIZIUS, Deb's paternal
+                      grandparents, came over from
+                      Lithuania,<br>
+                      and her Maternal grandparents, William HESSE and
+                      Barbara DELLING, came
+                      over from Germany.<br>
+                      <br>
+                      It
+                      is believed that both sets of Grandparents were
+                      *not* yet married, and
+                      did not know each other when they came over to
+                      America from Europe as
+                      young adults, they each met their future spouses
+                      after arriving in
+                      America.</span></span><span style="font-weight:
+                    bold; color: rgb(0, 51, 0); font-family: Arial;"><span
+                      style="color: rgb(0, 102, 0);"></span></span><span
+                    style="font-family: Arial;"><span
+                      style="font-family: Arial;"><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"></span></span></span></span><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"></span></span></span></span></span><font
+                        color="#006600"><sup><font face="Arial"><font
+                              size="-1">[325]</font></font></sup></font></span></span><span
+                    style="font-weight: bold; color: rgb(0, 51, 0);
+                    font-family: Arial;"><span style="color: rgb(0, 102,
+                      0);"><br>
+                    </span></span><span style="font-weight: bold; color:
+                    rgb(0, 51, 0); font-family: Arial;"><span
+                      style="color: rgb(0, 102, 0);"><br>
+                      The Chase-Hainer pedigree chart, listing all known
+                      ancestors so far:</span></span><span
+                    style="font-family: Arial; font-weight: bold; color:
+                    rgb(0, 51, 0);"><br>
+                  </span><span style="font-family: Arial; font-weight:
+                    bold; color: rgb(0, 51, 0);"></span><span
+                    style="font-size: 10pt; font-family: &quot;Courier
+                    New&quot;; color: black;"> </span></div>
+              </center>
+              <span style="font-weight: bold; color: rgb(0, 0, 0);"></span><span
+                style="font-weight: bold; color: rgb(0, 0, 0);"></span><span
+                style="font-weight: bold; color: rgb(0, 0, 0);"></span><br>
+            </td>
+            <td><img src="spacer25.gif" width="25" height="25"></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <br>
+    &nbsp;
+    <br>
+    <div style="text-align: center;">
+      <div style="text-align: center;"><br>
+      </div>
+    </div>
+    <br>
+    <div align="center">
+      <img alt=""
+src="http://scotlawrence.smugmug.com/Other/Genealogy-Photos-2/i-DwmTfRX/0/O/Chase-Pedchart-01-FORwebpage.png"
+        width="920" height="800"><br>
+    </div>
+    <div style="text-align: center;"><br>
+      <br>
+      <center><br>
+        <br>
+        <br>
+        &nbsp;
+        <center>
+          <table width="800" cellspacing="0" cellpadding="0"
+            background="texturebackground-table.jpg">
+            <tbody>
+              <tr>
+                <td><img src="spacer25.gif" width="25" height="25"> <br>
+                  &nbsp; <br>
+                  &nbsp; <br>
+                  &nbsp; <br>
+                  &nbsp; <br>
+                  &nbsp; <br>
+                  &nbsp;
+                  <p>&nbsp;</p>
+                </td>
+                <td>
+                  <center><font color="#ebe4da"><font size="-2"><br>
+                      </font></font>
+                    <div style="text-align: left;"><span
+                        style="font-family: Arial; font-weight: bold;
+                        color: rgb(0, 51, 0);"><span style="font-family:
+                          Arial; color: rgb(0, 51, 0);"><span
+                            class="normal"><span style="color: rgb(0,
+                              102, 0);"></span></span></span></span><span
+                        style="font-family: Arial; color: rgb(0, 51,
+                        0);"><span style="font-weight: bold;
+                          font-family: Arial; color: rgb(0, 102, 0);"></span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">The CIZIUS -
+                          CHASE Family.<br>
+                          Deb's Paternal grandparents.<br>
+                          <br>
+                          Deb's paternal Grandfather, (4) Joseph W.
+                          CIZIUS, was born in Lituania.<br>
+                          birth date uncertain, but probably 1890's.<br>
+                          He died in Rochester NY</span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);"> on April 20,
+                          1948, as Joseph W. CHASE,<br>
+                          and is buried at Holy Sepulchre cemetery,
+                          Rochester, NY</span></span><small><small><small><sup>
+                              <font size="-2" color="#006600">[529]</font></sup></small></small></small><br>
+                      <span style="font-weight: bold; color: rgb(0, 51,
+                        0);"><span style="color: rgb(0, 102, 0);">&nbsp;<br>
+                          His wife is Mary CIZIUS (CHASE), her maiden
+                          name is currently unknown.<br>
+                          She was born in 1897</span></span><small><small><small><span
+                              style="font-weight: bold; color: rgb(0,
+                              51, 0);"><span style="color: rgb(0, 102,
+                                0);"></span></span><span
+                              style="font-weight: bold; color: rgb(0,
+                              51, 0); font-family: Arial;"><span
+                                style="color: rgb(0, 102, 0);"></span></span><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"><span
+                                  style="font-family: Arial;"><span
+                                    style="font-family: Arial;"><span
+                                      style="font-family: Arial;"><span
+                                        style="font-family: Arial;"></span></span></span></span><span
+                                  style="font-family: Arial;"><span
+                                    style="font-family: Arial;"><span
+                                      style="font-family: Arial;"><span
+                                        style="font-family: Arial;"><span
+                                          style="font-family: Arial;"></span></span></span></span></span><font
+                                  color="#006600"><sup><font
+                                      face="Arial"><font size="-1"><small><small><small>[530]</small></small></small></font></font></sup></font></span></span></small></small></small><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">, probably in
+                          Lithuania, and died in
+                          1980, Rochester, NY<br>
+                          and is </span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">buried at Holy
+                          Sepulchre cemetery,
+                          Rochester, NY</span></span><small><small><small><sup>
+                              <font color="#006600">[530]</font></sup></small></small></small><br>
+                      <span style="font-weight: bold; color: rgb(0, 51,
+                        0);"><span style="color: rgb(0, 102, 0);"></span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);
+                        font-family: Arial;"><span style="color: rgb(0,
+                          102, 0);"></span></span><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"><span
+                                  style="font-family: Arial;"></span></span></span></span><span
+                            style="font-family: Arial;"></span></span></span><br>
+                      <span style="font-weight: bold; color: rgb(0, 51,
+                        0);"><span style="color: rgb(0, 102, 0);">Joseph
+                          and Mary emigrated to America
+                          seperately as young adults in the 1920's,</span></span><sup><small><small><small><small><small><font
+                                    color="#006600">[325]</font></small></small></small></small></small></sup><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);"><sup> </sup>and
+did
+                          not know each other before arriving in
+                          America. They settled in or
+                          around Worcester Massachusetts, where they
+                          presumabely met and were
+                          married.</span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);"> </span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">Their son,
+                          Joseph Jr. (Deb's father),
+                          was born in </span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">Worcester in
+                          1934. </span></span><span style="font-weight:
+                        bold; color: rgb(0, 51, 0);"><span style="color:
+                          rgb(0, 102, 0);">The family then later moved
+                          to Buffalo
+                          NY.<br>
+                          <br>
+                          Deb's paternal grandfather, (4) Joseph W.
+                          Chase Sr, (Joseph Chase the
+                          1st)</span></span><span style="font-weight:
+                        bold; color: rgb(0, 51, 0);"><span style="color:
+                          rgb(0, 102, 0);"> is the source and origin<br>
+                          of the CHASE surname for Deb's family. He </span></span><span
+                        style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                          style="color: rgb(0, 102, 0);">was born Joseph
+                          W. CIZIUS in Lithuania,
+                          probably in the 1890's.<br>
+                          <br>
+                          Yes, there are many other "Chase" families in
+                          the world, it's a rather
+                          common name..but Deb's family is unique in
+                          that we can know with
+                          complete certainty they are *not* related to
+                          any other Chases! ;) apart
+                          from their own known immediate family. For
+                          tracing back the direct-male
+                          line, other Chase genealogies are useless,
+                          because we are only up to
+                          three generations using the Chase name! Before
+                          the 1920's there were no
+                          Chase's in Deb's family tree, they were the
+                          CIZIUS family of Lithuania.<br>
+                          <br>
+                          And tracing the CIZIUS family beyond Joseph
+                          Sr. has been quite
+                          difficult, for several reasons:<br>
+                          First, attempting to trace records in Europe,
+                          with a foreign language,
+                          is difficult for any genealogy researcher, you
+                          have to work with
+                          records in a foreign country, which is
+                          difficult enough in and of
+                          itself, but then you also add in a foreign
+                          language on top of it! And,
+                          Im not even 100% certain that "Cizius" is the
+                          correct spelling! its
+                          close, but it could be Cizus, Cisus, Cisius,
+                          etc..the only good source
+                          document we have is Joseph Jr's birth
+                          certificate, which seems to say
+                          "Cizius" but its hard to make out the spelling
+                          exactly:<br>
+                          <br>
+                        </span></span></div>
+                  </center>
+                  <center><br>
+                    <p><br>
+                    </p>
+                    <br>
+                    <div style="text-align: center;"><img
+                        src="spacer750.gif" width="750" height="25"></div>
+                  </center>
+                  <center> </center>
+                </td>
+                <td><img src="spacer25.gif" width="25" height="25"></td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+        &nbsp;
+        <br>
+      </center>
+      <br>
+      <br>
+      <br>
+      &nbsp; <br>
+      &nbsp;
+      <center>
+        <table width="800" cellspacing="0" cellpadding="0"
+          background="texturebackground-table.jpg">
+          <tbody>
+            <tr>
+              <td><img src="spacer25.gif" width="25" height="25"> <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp;
+                <p>&nbsp;</p>
+              </td>
+              <td>
+                <center><font color="#ebe4da"><font size="-2"><br>
+                    </font></font>
+                  <div style="text-align: left;"><span
+                      style="font-family: Arial; font-weight: bold;
+                      color: rgb(0, 51, 0);"><span style="font-family:
+                        Arial; color: rgb(0, 51, 0);"><span
+                          class="normal"><span style="color: rgb(0, 102,
+                            0);"></span></span></span></span><span
+                      style="font-family: Arial; color: rgb(0, 51, 0);"><span
+                        style="font-weight: bold; font-family: Arial;
+                        color: rgb(0, 102, 0);"></span></span><span
+                      style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                        style="color: rgb(0, 102, 0);">Cemetery visits:
+                        (more to come)<br>
+                      </span></span></div>
+                </center>
+                <center><b><font face="Arial,Helvetica"><font
+                        color="#000000"><font size="-1"> <br>
+                        </font></font></font></b><span style="color:
+                    rgb(102, 102, 102);"></span><br>
+                  <b><font face="Arial,Helvetica"><font color="#000000"><font
+                          size="-1"><br>
+                          <br>
+                          <br>
+                        </font></font></font></b>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <p><br>
+                  </p>
+                  <br>
+                  <div style="text-align: center;"><img
+                      src="spacer750.gif" width="750" height="25"></div>
+                </center>
+                <center> </center>
+              </td>
+              <td><img src="spacer25.gif" width="25" height="25"></td>
+            </tr>
+          </tbody>
+        </table>
+      </center>
+      &nbsp;
+      <br>
+      <br>
+      <br>
+      &nbsp;
+      <br>
+    </div>
+    <center>&nbsp;
+      <center>
+        <table width="800" cellspacing="0" cellpadding="0"
+          background="texturebackground-table.jpg">
+          <tbody>
+            <tr>
+              <td><img src="spacer25.gif" width="25" height="25"> <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp; <br>
+                &nbsp;
+                <p>&nbsp;</p>
+              </td>
+              <td>
+                <center><font color="#ebe4da"><font size="-2"><br>
+                    </font></font>
+                  <div style="text-align: left;"><span
+                      style="font-family: Arial; font-weight: bold;
+                      color: rgb(0, 51, 0);"><span style="font-family:
+                        Arial; color: rgb(0, 51, 0);"><span
+                          class="normal"><span style="color: rgb(0, 102,
+                            0);"></span></span></span></span><span
+                      style="font-family: Arial; color: rgb(0, 51, 0);"><span
+                        style="font-weight: bold; font-family: Arial;
+                        color: rgb(0, 102, 0);"></span></span><span
+                      style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                        style="color: rgb(0, 102, 0);">Deb's
+                        direct ancestor surnames, <br>
+                        these Surnames are <span style="font-style:
+                          italic;">ancestors</span>
+                        of the Chase family.<br>
+                        <br>
+                        DELLING<br>
+                        CHASE<br>
+                        cizius<br>
+                        HESSE<br>
+                        HUFFMEISTER</span><br style="color: rgb(0, 102,
+                        0);">
+                      <span style="color: rgb(0, 102, 0);"></span><span
+                        style="color: rgb(0, 102, 0);"></span></span><span
+                      style="font-weight: bold; color: rgb(0, 51, 0);"></span><br
+                      style="font-weight: bold; color: rgb(0, 51, 0);">
+                    <br style="font-weight: bold; color: rgb(0, 51, 0);">
+                    <span style="font-weight: bold; color: rgb(51, 51,
+                      51);">Surnames
+                      that are relatives (cousins and other relations)
+                      of Deb's, <br>
+                      but are not direct ancestors, these are the
+                      surnames of cousins, Aunts
+                      and Uncles of the Chase family<br>
+                      <br>
+                      HAINER<br>
+                      <br>
+                      <br>
+                    </span><span style="font-weight: bold; color: rgb(0,
+                      51, 0);"><span style="color: rgb(0, 102, 0);">Unsolved
+                        questions:<br>
+                        <br>
+                        3. Marriage date and location for (6) and (7)
+                        William and Barbara HESSE.<br>
+                        <br>
+                        4. Birth date of (4) </span></span><span
+                      style="font-weight: bold; color: rgb(0, 51, 0);"><span
+                        style="color: rgb(0, 102, 0);">Joseph W. cizius
+                        Sr.<br>
+                        &nbsp;&nbsp;&nbsp; Probably born in the 1890's
+                        in Lithuania, died April
+                        20, 1948.<br>
+                        &nbsp;&nbsp;&nbsp; buried at Holy Sepulchre
+                        cemetery, Rochester, NY </span></span><span
+                      style="font-weight: bold; color: rgb(0, 51, 0);
+                      font-family: Arial;"><span style="color: rgb(0,
+                        102, 0);"></span></span><span
+                      style="font-family: Arial;"><span
+                        style="font-family: Arial;"><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"></span></span></span></span><span
+                          style="font-family: Arial;"><span
+                            style="font-family: Arial;"><span
+                              style="font-family: Arial;"><span
+                                style="font-family: Arial;"><span
+                                  style="font-family: Arial;"></span></span></span></span></span><font
+                          color="#006600"><sup><font face="Arial"><font
+                                size="-1">[529]</font></font></sup></font></span></span><br
+                      style="font-weight: bold; color: rgb(51, 51, 51);">
+                    <span style="font-weight: bold; color: rgb(0, 0,
+                      0);"><span style="color: rgb(51, 51, 51);"> </span></span>
+                    <span style="font-weight: bold; color: rgb(51, 51,
+                      51);"><br>
+                    </span><span style="font-weight: bold; color: rgb(0,
+                      0, 0);"><span style="color: rgb(51, 51, 51);"><br>
+                        <br>
+                      </span> </span><span style="font-family: Arial;
+                      font-weight: bold; color: rgb(0, 51, 0);"><span
+                        style="font-family: Arial; color: rgb(0, 51,
+                        0);"><span class="normal"><span style="color:
+                            rgb(0, 102, 0);"></span></span></span></span><span
+                      style="font-family: Arial; color: rgb(0, 51, 0);"><span
+                        style="font-weight: bold; font-family: Arial;
+                        color: rgb(0, 102, 0);"></span></span><span
+                      style="font-family: Arial; font-weight: bold;
+                      color: rgb(0, 51, 0);"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+                    <br>
+                  </div>
+                </center>
+                <center>&nbsp;
+                  <p><font face="Arial,Helvetica"><font size="-1">Email
+                        to: <b><font color="#ffffff"><a
+                              href="mailto:scotlawrence@gmail.com">scotlawrence@gmail.com</a></font></b></font></font>
+                  </p>
+                  <b><font face="Arial,Helvetica"><font color="#000000"><font
+                          size="-1">Scot
+                          Lawrence</font></font></font></b> <br>
+                  <b><font face="Arial,Helvetica"><font color="#000000"><font
+                          size="-1">Rochester NY, USA<br>
+                          <br>
+                          Page started 2008.<br>
+                          This CHASE page was last updated August 23,
+                          2011<br>
+                          <br>
+                        </font></font></font></b><span style="color:
+                    rgb(102, 102, 102);"></span><b><font
+                      face="Arial,Helvetica"><font color="#000000"><font
+                          size="-1"><br>
+                          <br>
+                        </font></font></font></b>
+                  <table style="text-align: left; width: 450px;
+                    margin-left: auto; margin-right: auto;"
+                    cellspacing="4" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="LAWRENCE.html"><img
+                              alt="LAWRENCE" src="button-lawrence.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="HILL.html"><img alt="HILL"
+                              src="button-hill.png" style="border: 0px
+                              solid ; width: 100px; height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="KREMER.html"><img
+                              alt="KREMER" src="button-kremer.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="TALADA.html"><img
+                              alt="TALADA" src="button-talada.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="ACKLES.html"><img
+                              alt="ACKLES" src="button-ackles.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="CHASE.html"><img alt="CHASE"
+                              src="button-chase.png" style="border: 0px
+                              solid ;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="FAMOUS.html"><font
+                              color="#ebe4da"><font size="-2"><img
+                                  alt="Famous people in the family
+                                  tree!" src="button-famous.png"
+                                  style="border: 0px solid ; width:
+                                  100px; height: 29px;"></font></font></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="VETERANS.html"><font
+                              color="#ebe4da"><font size="-2"><img
+                                  alt="Veterans in the family tree!"
+                                  src="button-veterans.png"
+                                  style="border: 0px solid ;"></font></font></a></td>
+                      </tr>
+                      <tr>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="cemetery.html"><img
+                              alt="Cemetery" src="button-cemeteries.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="updates.html"><img
+                              alt="Updates" src="button-updates.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="sources.html"><img
+                              alt="Sources" src="button-sources.png"
+                              style="border: 0px solid ; width: 100px;
+                              height: 29px;"></a></td>
+                        <td style="vertical-align: top; text-align:
+                          center;"><a href="index.html"><img alt="Home"
+                              src="button-home.png" style="border: 0px
+                              solid ; width: 100px; height: 29px;"></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p><br>
+                    <br>
+                  </p>
+                  <div align="center"><span style="font-weight: bold;
+                      color: rgb(51, 51, 51);">The industrial
+                      powerhouse that was Buffalo, NY, in the Early to
+                      Mid 20th Century.<br>
+                      This is what drew Deb's Grandparents to America in
+                      the
+                      1920's..Prosperity:</span></div>
+                  <p> </p>
+                  <img alt=""
+src="http://scotlawrence.smugmug.com/Other/Genealogy-Photos-2/i-2x2zg6K/0/O/chase-titlepic9.jpg"
+                    width="700" height="308"><br>
+                  <br>
+                  <br>
+                  <img alt=""
+src="http://scotlawrence.smugmug.com/Other/Genealogy-Photos-2/i-8BBKrSQ/0/O/historic-buffalo2.jpg"
+                    width="700" height="521"><br>
+                  <br>
+                  <br>
+                  <img alt=""
+src="http://scotlawrence.smugmug.com/Other/Genealogy-Photos-2/i-6P3vt6h/0/O/chase-titlepic12.jpg"
+                    width="700" height="503"><br>
+                  <br>
+                  <big><a href="index.html">Return
+                      to
+                      the
+                      main Lawrence &amp; Chase Genealogy Page.</a></big>
+                  <br>
+                  <div style="text-align: center;"><img
+                      src="spacer750.gif" width="750" height="25"></div>
+                </center>
+                <center> </center>
+              </td>
+              <td><img src="spacer25.gif" width="25" height="25"></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+      </center>
+    </center>
+  </body>
+</html>
